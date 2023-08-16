@@ -1,0 +1,107 @@
+.featured {
+    height: 100vh;
+        width: 100vw;
+    position: relative;
+
+    .category {
+        position: absolute;
+        top: 80px;
+        left: 50px;
+        font-size: 30px;
+        font-weight: 500;
+        color: white;
+        display: flex;
+        align-items: center;
+
+        select {
+            cursor: pointer;
+            background-color: var(--main-color);
+            border: 1px solid white;
+            color: white;
+            margin-left: 20px;
+            padding: 5px;
+        }
+    }
+
+    #genre {
+        z-index: 2;
+    }
+
+    img {
+        height: 100vh;
+            width: 100vw;
+       
+    }
+
+    .info {
+        width: 35%;
+        position: absolute;
+        left: 50px;
+        bottom: 60px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+
+        img {
+            width: 40vw;
+            margin-top: 100px;
+        }
+
+        .desc {
+            margin: 20px 0px;
+            font-size: 24px;
+
+          
+        }
+
+        .buttons {
+            display: flex;
+
+            button {
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 18px;
+                font-weight: 500;
+                margin-right: 10px;
+                cursor: pointer;
+
+                &.play {
+                    background-color: white;
+                    color: var(--main-color);
+                }
+
+                &.more {
+                    background-color: gray;
+                    color: white;
+                }
+
+                span {
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+}
+
+.video-container {
+    
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 30%;
+        background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0))
+}
+
+.video-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}

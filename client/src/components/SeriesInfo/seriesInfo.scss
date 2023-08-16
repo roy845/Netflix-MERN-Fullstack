@@ -1,0 +1,36 @@
+.my-list {
+    display: flex;
+    align-items: center;
+}
+
+.my-list svg {
+    margin-right: 5px;
+
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #141414;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-512.png");
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    align-items: flex-end;
+}
+
+option {
+    background-color: #141414;
+    color: #ffffff;
+}
+
+.select-container{
+    margin-left: 0rem;
+    
+}
+

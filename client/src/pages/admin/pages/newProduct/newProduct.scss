@@ -1,0 +1,125 @@
+.newProduct {
+    flex: 4;
+    margin-left: 20px;
+   
+}
+
+.addProductForm {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap:wrap;
+
+}
+
+.tooltip-label {
+    position: relative;
+    display: inline-block;
+    color: white;
+    cursor: help;
+}
+
+.tooltip-text {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    top: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip-label:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+.addProductItem {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding:20px;
+    color:white;
+}
+
+
+
+.addProductItem>label {
+  
+    font-weight: 600;
+    margin-bottom: 10px;
+    
+    
+}
+
+.addProductItem>input {
+    padding: 10px;
+}
+
+.addProductItem>select {
+    padding: 10px;
+}
+
+.addProductButton {
+    margin-top: 10px;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: darkblue;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    height: 30px;
+    align-self: center;
+}
+
+.addProductTitle{
+    color:white;
+}
+
+.progressBar{
+   
+    justify-content: center;
+    align-items: center;
+}
+
+.addProductButton.cancel {
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    margin-left: 20px;
+}
+
+.addProductButton.pause {
+    border-radius: 10px;
+    font-weight: bold;
+    background-color:#edcf0c;
+    color: white;
+    margin-left: 20px;
+}
+
+.addProductButton.resume {
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: #13d168;
+    color: white;
+    margin-left: 20px;
+}
+
+
+
+.cancelUpload{
+    color:red;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
